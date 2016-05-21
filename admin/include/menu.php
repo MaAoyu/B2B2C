@@ -29,22 +29,22 @@ $arr = array(
 			5 => array(
 				'args' 	=> 'trade',
 				'text'	=> $lang['nc_trade']),
-			6 => array(
+/*			6 => array(
 				'args'	=> 'website',
-				'text' 	=> $lang['nc_website']),
-			7 => array(
+				'text' 	=> $lang['nc_website']),*/
+/*			7 => array(
 				'args'	=> 'operation',
-				'text'	=> $lang['nc_operation']),
-			8 => array(
+				'text'	=> $lang['nc_operation']),*/
+/*			8 => array(
 				'args'	=> 'stat',
-				'text'	=> $lang['nc_stat']),
+				'text'	=> $lang['nc_stat']),*/
 		),
 		'left' =>array(
 			0 => array(
 				'nav' => 'dashboard',
 				'text' => $lang['nc_normal_handle'],
 				'list' => array(
-					array('args'=>'welcome,dashboard,dashboard',			'text'=>$lang['nc_welcome_page']),
+/*					array('args'=>'welcome,dashboard,dashboard',			'text'=>$lang['nc_welcome_page']),*/
 					array('args'=>'aboutus,dashboard,dashboard',			'text'=>$lang['nc_aboutus']),
 					array('args'=>'base,setting,dashboard',	'text'=>$lang['nc_web_set']),
 					array('args'=>'member,member,dashboard',				'text'=>$lang['nc_member_manage']),
@@ -58,20 +58,20 @@ $arr = array(
 				'text' => $lang['nc_config'],
 				'list' => array(
 					array('args'=>'base,setting,setting',			'text'=>$lang['nc_web_set']),
-					array('args'=>'qq,account,setting',		        'text'=>$lang['nc_web_account_syn']),
+/*					array('args'=>'qq,account,setting',		        'text'=>$lang['nc_web_account_syn']),*/
 					array('args'=>'param,upload,setting',			'text'=>$lang['nc_upload_set']),
-					array('args'=>'seo,setting,setting',			'text'=>$lang['nc_seo_set']),
-					array('args'=>'email,message,setting',			'text'=>$lang['nc_message_set']),
+/*					array('args'=>'seo,setting,setting',			'text'=>$lang['nc_seo_set']),
+					array('args'=>'email,message,setting',			'text'=>$lang['nc_message_set']),*/
 					array('args'=>'system,payment,setting',			'text'=>$lang['nc_pay_method']),
 					array('args'=>'admin,admin,setting',			'text'=>$lang['nc_limit_manage']),
 					array('args'=>'index,express,setting',			'text'=>$lang['nc_admin_express_set']),
-					array('args'=>'waybill_list,waybill,setting', 'text'=>'运单模板'),
+/*					array('args'=>'waybill_list,waybill,setting', 'text'=>'运单模板'),
 					array('args'=>'index,offpay_area,setting',		'text'=>$lang['nc_admin_offpay_area_set']),
 					array('args'=>'clear,cache,setting',			'text'=>$lang['nc_admin_clear_cache']),
 					array('args'=>'db,db,setting',			'text'=>'数据备份'),
 					array('args'=>'perform,perform,setting',		'text'=>$lang['nc_admin_perform_opt']),
 					array('args'=>'search,search,setting',			'text'=>$lang['nc_admin_search_set']),
-					array('args'=>'list,admin_log,setting',			'text'=>$lang['nc_admin_log']),
+					array('args'=>'list,admin_log,setting',			'text'=>$lang['nc_admin_log']),*/
 				)
 			),
 			2 => array(
@@ -93,7 +93,7 @@ $arr = array(
 					array('args'=>'store,store,store',						'text'=>$lang['nc_store_manage']),
 					array('args'=>'store_grade,store_grade,store',			'text'=>$lang['nc_store_grade']),
 					array('args'=>'store_class,store_class,store',			'text'=>$lang['nc_store_class']),
-					array('args'=>'store_domain_setting,domain,store',		'text'=>$lang['nc_domain_manage']),
+/*					array('args'=>'store_domain_setting,domain,store',		'text'=>$lang['nc_domain_manage']),*/
 					array('args'=>'stracelist,sns_strace,store',			'text'=>$lang['nc_s_snstrace']),
 					array('args'=>'help_store,help_store,store',			'text'=>'店铺帮助'),
 					array('args'=>'edit_info,store_joinin,store',			'text'=>'开店首页'),
@@ -105,15 +105,15 @@ $arr = array(
 				'text' => $lang['nc_member'],
 				'list' => array(
 					array('args'=>'member,member,member',					'text'=>$lang['nc_member_manage']),
-					array('args'=>'index,member_grade,member',				'text'=>'会员级别'),
-					array('args'=>'index,exppoints,member',					'text'=>$lang['nc_exppoints_manage']),
+/*					array('args'=>'index,member_grade,member',				'text'=>'会员级别'),
+					array('args'=>'index,exppoints,member',					'text'=>$lang['nc_exppoints_manage']),*/
 					array('args'=>'notice,notice,member',					'text'=>$lang['nc_member_notice']),
 					array('args'=>'addpoints,points,member',				'text'=>$lang['nc_member_pointsmanage']),
 					array('args'=>'predeposit,predeposit,member',			'text'=>$lang['nc_member_predepositmanage']),
-					array('args'=>'sharesetting,sns_sharesetting,member',	'text'=>$lang['nc_binding_manage']),
+/*					array('args'=>'sharesetting,sns_sharesetting,member',	'text'=>$lang['nc_binding_manage']),*/
 					array('args'=>'class_list,sns_malbum,member',			'text'=>$lang['nc_member_album_manage']),
 					array('args'=>'tracelist,snstrace,member',				'text'=>$lang['nc_snstrace']),
-					array('args'=>'member_tag,sns_member,member',			'text'=>$lang['nc_member_tag']),
+/*					array('args'=>'member_tag,sns_member,member',			'text'=>$lang['nc_member_tag']),*/
 					array('args'=>'chat_log,chat_log,member',				'text'=>'聊天记录')
 				)
 			),
@@ -126,10 +126,10 @@ $arr = array(
 					array('args'=>'refund_manage,refund,trade',				'text'=>'退款管理'),
 					array('args'=>'return_manage,return,trade',				'text'=>'退货管理'),
 					array('args'=>'refund_manage,vr_refund,trade',		    'text'=>'虚拟订单退款'),
-					array('args'=>'consulting,consulting,trade',			'text'=>$lang['nc_consult_manage']),
+/*					array('args'=>'consulting,consulting,trade',			'text'=>$lang['nc_consult_manage']),
 					array('args'=>'inform_list,inform,trade',				'text'=>$lang['nc_inform_config']),
 					array('args'=>'evalgoods_list,evaluate,trade',			'text'=>$lang['nc_goods_evaluate']),
-					array('args'=>'complain_new_list,complain,trade',		'text'=>$lang['nc_complain_config']),
+					array('args'=>'complain_new_list,complain,trade',		'text'=>$lang['nc_complain_config']),*/
 				)
 			),
 			6 => array(
@@ -146,7 +146,7 @@ $arr = array(
 					array('args'=>'link,link,website',			'text'=>友情连接),
 				)
 			),
-			7 => array(
+/*			7 => array(
 				'nav' => 'operation',
 				'text' => $lang['nc_operation'],
 				'list' => array(
@@ -166,7 +166,7 @@ $arr = array(
                     array('args'=>'index,rechargecard,operation',               'text'=>'平台充值卡'),
                     array('args'=>'index,delivery,operation',                   'text'=>'物流自提服务站')
 				)
-			),
+			),*/
 			8 => array(
 				'nav' => 'stat',
 				'text' => $lang['nc_stat'],
@@ -184,7 +184,7 @@ $arr = array(
 			),
 		),
 );
-if(C('flea_isuse')==1){
+/*if(C('flea_isuse')==1){
 	$arr['top'][] = array(
 				'args'	=> 'flea',
 				'text'	=> 闲置);
@@ -200,7 +200,7 @@ if(C('flea_isuse')==1){
 					5 => array('args'=>'adv_manage,flea_index,flea',			'text'=>闲置幻灯),
 				)
 			);
-}
+}*/
 if(C('mobile_isuse')){
 	$arr['top'][] = array(
 				'args'	=> 'mobile',
@@ -218,7 +218,7 @@ if(C('mobile_isuse')){
 				)
 			);
 }
-if(C('microshop_isuse') !== null){
+/*if(C('microshop_isuse') !== null){
 	$arr['top'][] = array(
 				'args'	=> 'microshop',
 				'text'	=> $lang['nc_microshop']);
@@ -278,7 +278,7 @@ if(C('circle_isuse') !== null){
 					8 => array('args'=>'index,circle_cache,circle','text'=>$lang['nc_circle_cache'])
 			)
 	);
-}
+}*/
 
 return $arr;
 ?>
