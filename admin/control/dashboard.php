@@ -16,7 +16,7 @@ class dashboardControl extends SystemControl{
 	/**
 	 * 欢迎页面
 	 */
-	public function welcomeOp(){
+	/*public function welcomeOp(){
 		/**
 		 * 管理员信息
 		 */
@@ -47,7 +47,7 @@ class dashboardControl extends SystemControl{
 		Tpl::output('statistics',$statistics);
 		Tpl::output('admin_info',$admin_info);
 		Tpl::showpage('welcome');
-	}
+	}*/
 
 	/**
 	 * 关于我们

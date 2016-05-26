@@ -45,7 +45,7 @@ $arr = array(
 				'text' => $lang['nc_normal_handle'],
 				'list' => array(
 /*					array('args'=>'welcome,dashboard,dashboard',			'text'=>$lang['nc_welcome_page']),*/
-					array('args'=>'aboutus,dashboard,dashboard',			'text'=>$lang['nc_aboutus']),
+/*					array('args'=>'aboutus,dashboard,dashboard',			'text'=>$lang['nc_aboutus']),*/
 					array('args'=>'base,setting,dashboard',	'text'=>$lang['nc_web_set']),
 					array('args'=>'member,member,dashboard',				'text'=>$lang['nc_member_manage']),
 					array('args'=>'store,store,dashboard',					'text'=>$lang['nc_store_manage']),
